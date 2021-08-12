@@ -1,0 +1,26 @@
+2021-08-02T15:16:17+00:00 CRITICAL Uncaught Error: Class 'WooCommerce_Expiry' not found in /var/www/html/wc-expiry-plugin-dev/wp-content/plugins/wc-product-expiry/product_expiry.php:35
+Stack trace:
+#0 /var/www/html/wc-expiry-plugin-dev/wp-includes/class-wp-hook.php(303): tutsplus_wc_input_start()
+#1 /var/www/html/wc-expiry-plugin-dev/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /var/www/html/wc-expiry-plugin-dev/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /var/www/html/wc-expiry-plugin-dev/wp-settings.php(441): do_action()
+#4 /var/www/html/wc-expiry-plugin-dev/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wc-expiry-plugin-dev/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wc-expiry-plugin-dev/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#7 /var/www/html/wc-expiry-plugin-dev/wp-admin/plugins.php(10): require_once('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wc-expiry-plugin-dev/wp-content/plugins/wc-product-expiry/product_expiry.php on line 35
+
+2021-08-02T18:03:36+00:00 CRITICAL Uncaught Error: Call to a member function get_results() on null in /var/www/html/wc-expiry-plugin-dev/wp-content/plugins/wc-product-expiry/product_expiry.php:104
+Stack trace:
+#0 /var/www/html/wc-expiry-plugin-dev/wp-includes/class-wp-hook.php(303): notify_via_email()
+#1 /var/www/html/wc-expiry-plugin-dev/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 /var/www/html/wc-expiry-plugin-dev/wp-includes/plugin.php(470): WP_Hook->do_action()
+#3 /var/www/html/wc-expiry-plugin-dev/wp-settings.php(600): do_action()
+#4 /var/www/html/wc-expiry-plugin-dev/wp-config.php(96): require_once('/var/www/html/w...')
+#5 /var/www/html/wc-expiry-plugin-dev/wp-load.php(50): require_once('/var/www/html/w...')
+#6 /var/www/html/wc-expiry-plugin-dev/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#7 /var/www/html/wc-expiry-plugin-dev/index.php(17): require('/var/www/html/w...')
+#8 {main}
+  thrown in /var/www/html/wc-expiry-plugin-dev/wp-content/plugins/wc-product-expiry/product_expiry.php on line 104
+
